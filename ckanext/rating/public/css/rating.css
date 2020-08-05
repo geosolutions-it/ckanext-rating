@@ -49,9 +49,7 @@
 }
 
 .rating-star {
-  float: left;
-  font-size: 1.5em;
-  padding: 0 5px;
+    width: auto !important;
 }
 
 a.rating-star-hover,
@@ -84,7 +82,10 @@ a.rating-star:active {
 }
 
 .glyphicon-star-empty {
-	color: #e67e22;
+	color: #bdc4c7;
+}
+.star-rating .star-rating-stars .glyphicon {
+    font-size: 20px;
 }
 
 .glyphicon-star.half {
