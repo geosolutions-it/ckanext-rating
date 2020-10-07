@@ -16,7 +16,7 @@ stars  - The number of stars to be displayed.
 {% endif %}
 
 {% block main_star_rating %}
-  <span class="star-rating{% if stars == 0 %} no-stars{% endif %}">
+  <span class="star-rating{% if stars == 0 %} no-stars{% endif %} average-rating">
     <span class="star-rating-stars">
       {%- for index in range(stars|int) -%}
         <span class="glyphicon glyphicon-star"></span>
